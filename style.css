@@ -169,6 +169,7 @@ header .menu {
   flex-direction: column;
   min-height: 100vh;
   padding-top: 50px;
+  justify-content: center;
 }
 
 #planos h2 {
@@ -280,6 +281,7 @@ footer .footer {
   #services h2 {
     display: flex;
     justify-content: center;
+    padding: 15px;
   }
 
   .list-services {
@@ -308,5 +310,16 @@ footer .footer {
     margin: auto;
     width: 100%;
     margin-bottom: 20px;
+  }
+
+  footer {
+    height: 80px;
+  }
+
+  footer .footer p {
+    display: flex;
+    justify-content: center;
+
+    padding: 5px;
   }
 }
