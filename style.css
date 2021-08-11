@@ -24,6 +24,7 @@ div img {
   max-width: 992px;
   margin: auto;
   width: 100%;
+  min-width: 320px;
 }
 
 header {
@@ -56,7 +57,7 @@ header .menu {
   justify-content: space-between;
 }
 
-.txt-presentation {
+.presentation .txt-presentation {
   min-height: 200px;
 }
 
@@ -167,6 +168,7 @@ header .menu {
 #planos {
   flex-direction: column;
   min-height: 100vh;
+  padding-top: 50px;
 }
 
 #planos h2 {
@@ -228,4 +230,59 @@ header .menu {
   height: 10px;
   background-color: #122a57;
   margin-right: 5px;
+}
+
+footer {
+  background-color: #122a57;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+footer .footer {
+  justify-content: space-between;
+  color: #fff;
+}
+
+@media (max-width: 992px) {
+  .flex-container {
+    flex-direction: column;
+  }
+
+  .presentation {
+    flex-direction: column-reverse;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+
+  #about {
+    flex-direction: column-reverse;
+  }
+
+  #about img {
+    min-width: 320px;
+    margin: auto;
+  }
+
+  .list-services {
+    flex-direction: column;
+  }
+
+  .item-services img {
+    width: 25%;
+    margin: auto;
+  }
+
+  .list-planos {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+
+  .list-planos .item-plano {
+    max-width: 90%;
+    margin: auto;
+    width: 100%;
+    margin-bottom: 20px;
+  }
 }
