@@ -125,7 +125,7 @@ header .menu {
 
 #services h2 {
   color: #fff;
-  text-size-adjust: 32px;
+  font-size: 32px;
   margin-bottom: 20px;
 }
 
@@ -249,6 +249,19 @@ footer .footer {
     flex-direction: column;
   }
 
+  header .menu {
+    align-items: center;
+  }
+
+  header .list-items {
+    padding: 10px;
+  }
+
+  .about-txt {
+    align-items: center;
+    padding-left: 17px;
+  }
+
   .presentation {
     flex-direction: column-reverse;
     width: 100%;
@@ -264,6 +277,11 @@ footer .footer {
     margin: auto;
   }
 
+  #services h2 {
+    display: flex;
+    justify-content: center;
+  }
+
   .list-services {
     flex-direction: column;
   }
@@ -277,6 +295,12 @@ footer .footer {
     flex-direction: column;
     align-items: flex-start;
     margin-bottom: 20px;
+  }
+
+  #planos h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
   }
 
   .list-planos .item-plano {
